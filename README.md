@@ -1,4 +1,4 @@
 # Banco-De-Dados
-Inicio do Projeto 
+Projeto de Estudo
 
 POSTGRESQL
