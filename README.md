@@ -1,4 +1,3 @@
 # Banco-De-Dados
-Projeto de Estudo
-
-POSTGRESQL
+- Projeto de Estudo
+- POSTGRESQL
