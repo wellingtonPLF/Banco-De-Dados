@@ -85,6 +85,7 @@ CREATE TABLE ligacao(
 	duracao time NOT NULL,
 	CONSTRAINT pk_ligacao PRIMARY KEY(campoData),
 	CONSTRAINT fk_ligacao_chipEmissor FOREIGN KEY(chipEmissor) REFERENCES chip,
+	CONSTRAINT fk_ligacao_chipReceptor FOREIGN KEY(chipReceptor) REFERENCES chip,
 	CONSTRAINT fk_ligacao_ufOrigem FOREIGN KEY(ufOrigem) REFERENCES estado,
 	CONSTRAINT fk_ligacao_ufDestino FOREIGN KEY(ufDestino) REFERENCES estado
 );
